@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100&family=Quicksand:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(../img/fondos-web.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+#header h1 {
+    color: rgb(3, 3, 3);
+    margin: 0;
+    padding-left: 27%;
+    padding-right: 27%;
+    font-size: 60px;
+}
+
+.bak {
+    background-color: rgb(250, 241, 111);
+    padding-bottom: 5%;
+}
+
+#main {
+    margin: -35px;
+    background-color: rgb(250, 241, 111);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#main p {
+    font-size: 20px;
+}
+
+#main h1 {
+    padding: 1%;
+    font-size: 40px;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+    padding: 1%;
+}
+
+#primerparrafodspvideo {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Centrado {
+    text-align: center;
+}
+
+#segundoparrafodspvideo {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#tercerparrafodspvideo {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#cuartoparrafodspvideo {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#quintoparrafodspvideo {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 68, 255);
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(50, 66, 207);
+    color: rgb(251, 255, 0);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #header h1 {
+        padding: 1%;
+    }
+}
